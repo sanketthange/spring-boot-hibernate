@@ -1,0 +1,16 @@
+spring.application.name=Spring-Actuator
+
+management.endpoints.web.exposure.include=*
+
+management.info.env.enabled=true
+
+info.app.name=spring-dev-tool
+info.app.description=to get message
+info.app.version=1.0.0
+
+
+#
+#http://localhost:8080/actuator/info
+#http://localhost:8080/actuator/health
+#http://localhost:8080/actuator/beans
+
